@@ -1,0 +1,73 @@
+.css3a {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+
+}
+
+.css3b {
+  background-color: yellow;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 20px;
+  cursor: pointer
+}
+
+.css3c {
+  background-color: green;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.css3d {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.css33d {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  padding: 12px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.css3e {
+  background-color:rgb(10, 102, 194);
+  color: white;
+  padding:10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.css33e {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.css3f {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+.css33f {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding: 7px 30px;
+  border-radius: 20px;
+}
