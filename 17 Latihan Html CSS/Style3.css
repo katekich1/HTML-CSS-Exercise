@@ -4,7 +4,10 @@
   border: none;
   padding: 12px 20px;
   cursor: pointer;
-
+  transition: opacity 0.3s ease;
+}
+.css3a:hover {
+  opacity: 0.6; 
 }
 
 .css3b {
@@ -13,6 +16,10 @@
   padding: 10px 50px;
   border-radius: 20px;
   cursor: pointer
+
+}
+.css3b:hover {
+  background-color: rgb(182, 221, 8);
 }
 
 .css3c {
@@ -22,6 +29,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.css3c:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .css3d {
@@ -32,6 +43,9 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.css3d:hover {
+  background-color: rgb(100, 27, 168);
+}
 
 .css33d {
   background-color: white;
@@ -41,6 +55,9 @@
   border-radius: 5px;
   cursor: pointer;
 }
+.css33d:hover {
+  color: #000000; 
+}
 
 .css3e {
   background-color:rgb(10, 102, 194);
@@ -49,6 +66,9 @@
   border: none;
   border-radius: 20px;
 }
+.css3e:hover {
+  background-color: rgb(11, 71, 131);
+}
 
 .css33e {
   background-color: white;
@@ -56,6 +76,11 @@
   border: 1px solid;
   padding: 10px 20px;
   border-radius: 20px;
+}
+.css33e:hover {
+  background-color: rgb(152, 185, 218);
+  border-color:  rgb(10, 102, 194);
+  border-width: 2px;
 }
 
 .css3f {
