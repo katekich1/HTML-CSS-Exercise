@@ -1,0 +1,12 @@
+.press {
+  margin: 0px 10px;
+  padding: 10px 10px 10px 10px;
+}
+.text {
+  display: center;
+  justify-content: center;
+  margin: 10px;
+}
+.strech {
+  background-color: green;
+}
