@@ -4,41 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style7.css">
 </head>
 <body>
-  <font face="arial">
-  <h3><b><u> Lesson 8 Exercise - Display and inline - Block </u></b></h3>
+  <font face="Arial">
+  <h1><u> Lesson 8 Exercises - Display Block and inline - Block </u></h1>
   </font>
-</body>
-    <style>
-      .soal1{
-        background-color: rgb(138, 27, 27);
-        color: rgb(0, 0, 0);
-        padding: 10px 20px;
-        border: none;
-        display: block;
-      }
-      .soal1:name{
-        opacity: 0.8;
-        cursor: pointer;
-        inline-size: none;
-      }
-    </style>
-    <div class="soal1"> Name </div>
-<br>
-    <style>
-      .soal2{
-        background-color: rgb(209, 70, 70);
-        color: rgb(124, 45, 45);
-        padding: 10px 20px;
-        border: none;
-        display: block;
-      }
-      .soal2:Email{
-        opacity: 0.8;
-        cursor: pointer;
-        inline-size: none;
-      }
-    </style>
-    <div class="soal2">Email</div>
-</html>
+
+  <h3> 8a </h3>
+  <style>
+    .name {
+      width: 150px;
+      height: 20px;
+    }
+    .email {
+      width: 150px;
+      height: 20px;
+    }
+  </style>
+  <input type="text" class="name" placeholder="Name">
+  <br> <br>
+  <input type="text" class="email" placeholder="Email">
+
+  <h3> 8b </h3>
+  <style>
+    .inline-group {
+      white-space: nowrap;
+    }
+    .inline-group > * {
+    display: inline-block;
+    vertical-align: middle;
+    }
+  </style>
+    <div class="inline-group">
+        <p> Thanks for chatting with <br>
+            our customer support. Would you <br>
+            like to take our quick survey?</p>
+
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+  </div>
+  <h3> 8c </h3>
+  <style>
+    .goggle {
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      width: 350px;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+    }
+    .logo {
+    width: 150px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+  }
+    
+    
+  </style>
+    <img src="goggle.png" class="logo">
+    <input type="text" class="goggle" placeholder="Search Goggle or type a URL">
+
+  <h3> 8d </h3>
+  <style>
+    .first {
+      width: 120px;
+      height: 30px;
+      border-radius: 10px;
+      border: none;
+      padding: 10px ;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+
+    }
+    .email-sign {
+      width: 260px;
+      height: 30px;
+      border-radius: 10px;
+      padding: 10px 20px;
+      box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+      border: none;
+    }
+    .sign-up {
+      border: none;
+      width: 260px;
+      height: 40px;
+      color: rgb(255, 255, 255);
+      background-color: blue;
+      border-radius: 10px;
+    }
+
+  </style>
+  <input type="text" class="first" placeholder="First name">
+  <input type="text" class="first" placeholder="First name">
+  <br> <br>
+  <input type="text" class="email-sign" placeholder="Email">
+  <br> <br>
+  <font face="Arial">
+  <button class="sign-up"> <b> Sign Up </b></button>
+  </font>
+
+  <h3> 8e</h3>

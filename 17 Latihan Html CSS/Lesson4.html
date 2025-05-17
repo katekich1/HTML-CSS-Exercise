@@ -8,4 +8,93 @@
 <body>
   
 </body>
+
+<style>
+  :root {font-family: sans-serif;}
+
+  .paggination{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .stretch{
+    background-color: green;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    transition: height 0.5s, width 0.5s ;
+ 
+
+  }
+  .stretch:hover{
+    height: 60px;
+    width: 120px;
+  }
+
+  .click{
+    background-color: green;
+    color: white;
+    border-style: none;
+    height: 30px;
+    width: 60px;
+    box-shadow: 2px 2px 4px #838383;
+    cursor: pointer;
+    transform: translateX(-3px);
+    transform: translateY(-3px);
+  }
+
+  .click:active{
+    box-shadow: 0px 0px 0px #838383 ;
+    transform: translateX(0px); 
+    transform: translateY(0px);
+
+  }
+
+  .margin_padding{
+    background-color: green;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    padding: 15px;
+    margin-inline: 35px;
+    transition: margin 0.5s, padding 0.5s;
+  }
+  .margin_padding:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-inline: 20px;
+  }
+
+</style>
+
+<h3>
+  4h.Paggination
+</h3>
+
+<div class="paggination">
+  <button>Back</button>
+  <a href="">1</a>
+  <a href="">2</a>
+  <a href="">3</a>
+  <a href="">4</a>
+  <a href="">5</a>
+  <button>Next</button>
+</div>
+
+<h3>4i.Stretch</h3>
+
+<button type="button" class="stretch">Strecth</button>
+
+<h3>4j.3D Click</h3>
+
+<button type="button" class="click">Shadow</button>
+
+<h3>4k. Margin and padding together</h3>
+
+<button type="button" class="margin_padding">One</button>
+<button type="button" class="margin_padding">Two</button>
+<button type="button" class="margin_padding">Three</button>
+
 </html>
